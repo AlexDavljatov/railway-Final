@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="greeter:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="jboss-as-greeter.war">
+      <element id="artifact" artifact-name="greeter:war exploded" />
+    </root>
+  </artifact>
+</component>
