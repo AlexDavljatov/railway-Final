@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+    <title>Login page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <h:outputStylesheet name="css/style.css"/>
+</h:head>
+<h:body>
+    <div id="bg">
+        <div id="outer">
+
+            <div id="banner">
+                <img src="resources/css/images/glacier-express-escorted.jpg"
+                     width="1120" height="200" alt=""/>
+            </div>
+            <div id="main">
+                <div id="content">
+
+                    <div id="box1">
+                        <h2>
+                            Login to fell free in using our railways!
+                        </h2>
+                        <p>
+                            Just fill all fields and try your best!
+                        </p>
+                    </div>
+
+
+                    <br class="clear"/>
+                </div>
+
+                <div id="sidebar1">
+
+                    <p:panel id="pnl" header="Login" style="margin-bottom:10px;">
+                        <p:messages id="messages"/>
+
+
+                        <div>
+                            <h:form id="form">
+                                <p:growl id="growl"/>
+
+                                <h:panelGrid columns="3">
+                                    <f:facet name="header">
+
+                                    </f:facet>
+
+                                    <p:outputLabel for="emails" value="Email:"/>
+                                    <p:inputText id="emails" value="#{newAccount.email}"/>
+                                    <p:watermark for="emails" value="input email"/>
+
+                                    <p:outputLabel for="password" value="Password:"/>
+                                    <p:password id="password" value="#{newAccount.password}"/>
+                                    <p:watermark for="password" value="input password"/>
+
+                                    <f:facet name="footer">
+                                        <p:commandButton id="login" action="#{loginBean.login}" value="Login"
+                                                                                        update="growl" icon="ui-icon-check"/>
+                                        <h:messages styleClass="messages" errorClass="invalid" infoClass="valid" warnClass="warning"
+                                                    globalOnly="true"/>
+
+                                    </f:facet>
+
+                                </h:panelGrid>
+
+
+                            </h:form>
+                            <h:form id="form1">
+                                <p:commandButton value="Register" update="form1" id="ajax" ajax="false"
+                                                 action="#{loginBean.register}" styleClass="ui-priority-primary"/>
+                            </h:form>
+                        </div>
+                    </p:panel>
+
+                </div>
+
+                <br class="clear"/>
+            </div>
+            <div id="footer">
+                <div id="footerContent">
+                    Just some extrainformation here
+                </div>
+
+                <br class="clear"/>
+            </div>
+        </div>
+        <div id="copyright">
+            &copy; T-Systems 2013 | Design by <a href="http://www.freecsstemplates.org/">Alexander Davljatov </a>
+        </div>
+    </div>
+</h:body>
+
+</html>

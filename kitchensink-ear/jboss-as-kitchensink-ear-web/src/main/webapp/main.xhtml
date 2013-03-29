@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+    <title>Main page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <h:outputStylesheet name="css/screen.css"/>
+</h:head>
+<h:body>
+
+    <h:form>
+        <p:growl id="messages"/>
+        <p:slideMenu style="min-height:380px">
+            <p:submenu label="Administrator rights" icon="ui-icon-refresh"
+                       rendered="#{mainMenuBean.admin}">
+                <p:menuitem value="Save" actionListener="#{mainMenuBean.save}" update="messages" icon="ui-icon-disk"/>
+                <p:menuitem value="Update" actionListener="#{mainMenuBean.update}" update="messages"
+                            icon="ui-icon-arrowrefresh-1-w"/>
+                <p:menuitem value="Add/view trains" action="#{mainMenuBean.gotoEditTrains}"
+                            update="messages" icon="ui-icon-disk"/>
+                <p:menuitem value="Add/view stations" action="#{mainMenuBean.gotoEditStations}"
+                            update="messages" icon="ui-icon-disk"/>
+                <p:menuitem value="Add/view passengers" action="#{mainMenuBean.gotoEditPassengers}"
+                            update="messages" icon="ui-icon-disk"/>
+            </p:submenu>
+            <p:separator/>
+            <p:submenu label="Navigations" icon="ui-icon-extlink">
+                <p:submenu label="Prime Links">
+                    <p:menuitem value="Prime" url="http://www.prime.com.tr"/>
+                    <p:menuitem value="PrimeFaces" url="http://www.primefaces.org"/>
+                </p:submenu>
+                <p:menuitem value="Mobile" outcome="/login"/>
+            </p:submenu>
+            <p:menuitem value="My cabinet" action="#{mainMenuBean.gotoMyCabinet}"
+                        update="messages" icon="ui-icon-disk"/>
+            <p:menuitem value="Buy ticket" action="#{mainMenuBean.gotoBuyTicket}"
+                        update="messages" icon="ui-icon-disk"/>
+            <p:menuitem value="Find train" action="#{mainMenuBean.gotoMyCabinet}"
+                        update="messages" icon="ui-icon-disk"/>
+            <p:menuitem value="Log out" action="#{mainMenuBean.logout}"
+                        update="messages" icon="ui-icon-extlink"/>
+
+        </p:slideMenu>
+    </h:form>
+
+
+</h:body>
+</html>

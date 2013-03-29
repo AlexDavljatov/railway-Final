@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+    <title>Buy ticket page page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <h:outputStylesheet name="css/style.css"/>
+</h:head>
+<h:body>
+    <div id="bg">
+        <div id="outer">
+            <div id="header">
+                <div id="nav">
+                    <h:form>
+                        <p:growl id="messages"/>
+                        <p:megaMenu>
+                            <p:submenu label="Admin..." icon="ui-icon-refresh"
+                                       rendered="#{mainMenuBean.admin}"
+                                    >
+                                <p:column>
+                                    <p:submenu label="You can.."
+                                            >
+                                        <p:menuitem value="add/view trains" action="#{mainMenuBean.gotoEditTrains}"
+                                                    update="messages" icon="ui-icon-contact"/>
+                                        <p:menuitem value="add/view stations" action="#{mainMenuBean.gotoEditStations}"
+                                                    update="messages" icon="ui-icon-document"/>
+                                        <p:menuitem value="add/view passengers" action="#{mainMenuBean.gotoEditPassengers}"
+                                                    update="messages" icon="ui-icon-person"/>
+                                        <p:menuitem value="add/view route point" action="#{mainMenuBean.gotoEditShedule}"
+                                                    update="messages"/>
+                                    </p:submenu>
+                                </p:column>
+                            </p:submenu>
+
+                            <p:submenu label="My..." icon="ui-icon-refresh"
+                                    >
+                                <p:column>
+                                    <p:submenu label="">
+                                        <p:menuitem value="profile" action="#{mainMenuBean.gotoMyCabinet}" update="messages"/>
+                                        <p:menuitem value="tickets" action="#{mainMenuBean.gotoMyCabinet}" update="messages"/>
+                                    </p:submenu>
+                                </p:column>
+                            </p:submenu>
+
+
+                            <p:submenu label="Aim ..." icon="ui-icon-refresh">
+                                <p:column>
+                                    <p:submenu label=""
+                                            >
+                                        <p:menuitem value="buy a ticket" action="#{mainMenuBean.gotoBuyTicket}"
+                                                    update="messages" icon="ui-icon-star"/>
+                                        <p:menuitem value="find train" action="#{mainMenuBean.gotoFindTrain}"
+                                                    update="messages" icon="ui-icon-search"/>
+                                        <p:menuitem value="log out" action="#{mainMenuBean.logout}"
+                                                    update="messages" icon="ui-icon-extlink"/>
+                                    </p:submenu>
+                                </p:column>
+
+                            </p:submenu>
+                        </p:megaMenu>
+                    </h:form>
+
+                    <br class="clear"/>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="resources/css/images/glacier-express-escorted.jpg"
+                     width="1120" height="200" alt=""/>
+            </div>
+            <div id="main">
+                <div id="content">
+
+                    <div id="box1">
+                        <h2>
+                            You can buy some tickets here
+                        </h2>
+                        <p>
+                            Click on interesting route..and that's all!
+                        </p>
+                    </div>
+
+
+
+
+                    <br class="clear"/>
+                </div>
+
+                <div id="sidebar1">
+
+
+                    <div id="container" >
+
+
+                        <p:panel id="pnl" header="Tickets" style="margin-bottom:10px;" >
+                            <!---->
+                            <h:form id="form">
+
+                                <p:growl id="growl" showDetail="true"/>
+
+                                <p:dataTable id="shedules"
+                                             var="shedule"
+                                             value="#{addRoutePointBean.sheduleDataModel}"
+                                             paginator="true"
+                                             rows="10"
+                                             selection="#{addRoutePointBean.selectedSheduleModel}"
+                                             selectionMode="single">
+
+                                    <p:ajax event="rowSelect"
+                                            listener="#{addRoutePointBean.onRowSelect}"
+                                            update=":form:display :form:growl"
+                                            oncomplete="carDialog.show()"/>
+                                    <p:ajax event="rowUnselect"
+                                            listener="#{addRoutePointBean.onRowUnselect}"
+                                            update=":form:growl"/>
+                                    <f:facet name="header">
+                                        Select a row to buy a ticket
+                                    </f:facet>
+                                    <!--<p:column headerText="Id">
+                                        #{shedule.unique}
+                                    </p:column>-->
+                                    <p:column headerText="Station">
+                                        #{shedule.stationName}
+                                    </p:column>
+                                    <p:column headerText="Train">
+                                        #{shedule.trainNumber}
+                                    </p:column>
+                                    <p:column headerText="Time">
+                                        #{shedule.date}
+                                    </p:column>
+                                </p:dataTable>
+                                <p:separator/>
+
+
+                                <p:dialog id="dialog" header="buyTicket" widgetVar="carDialog">
+                                    <h:panelGrid columns="2" cellpadding="5" id="display">
+                                        <h:outputLabel for="stationName" value="Station name:"/>
+                                        <h:outputText value="#{addRoutePointBean.ticketStation}"
+                                                      id="stationName" required="true" label="stationName"/>
+                                        <h:outputLabel for="trainNumber" value="Train number:"/>
+                                        <h:outputText value="#{addRoutePointBean.ticketTrain}"
+                                                      id="trainNumber" required="true" label="trainNumber"/>
+                                        <h:outputLabel for="date" value="Date/time:"/>
+                                        <h:outputText value="#{addRoutePointBean.ticketDate}"
+                                                      id="date" required="true" label="date"/>
+
+                                        <p:commandButton id="showDialogButton" value="Buy a ticket"
+                                                         action="#{addRoutePointBean.check}"/>
+
+                                    </h:panelGrid>
+
+                                </p:dialog>
+
+
+                            </h:form>
+
+                        </p:panel>
+
+                    </div>
+
+                </div>
+                <br class="clear"/>
+            </div>
+            <div id="footer">
+                <div id="footerContent">
+                    Just some extrainformation here
+                </div>
+
+                <br class="clear"/>
+            </div>
+        </div>
+        <div id="copyright">
+            &copy; T-Systems 2013 | Design by <a href="http://www.freecsstemplates.org/">Alexander Davljatov </a>
+        </div>
+    </div>
+</h:body>
+
+</html>

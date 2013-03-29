@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5a173c9-4816-411d-8a35-0f996a7685c4" name="Default" comment="" />
+    <ignored path="jboss-as-kitchensink-ear.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/fragment.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364229892760" ignored="false" />
+    <file path="$PROJECT_DIR$/../../railway-web/ejb-in-ear/ejb/src/main/java/org/jboss/as/quickstarts/ear/util/Resources.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363547099775" ignored="false" />
+    <file path="$PROJECT_DIR$/../../railway-web/ejb-in-ear/web/src/main/java/util/WebResources.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363547217488" ignored="false" />
+    <file path="$PROJECT_DIR$/../../railway-web/ejb-in-ear/ejb/src/main/java/org/jboss/as/quickstarts/ear/service/EJBUserDAOImpl.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363548191354" ignored="false" />
+    <file path="/EJBUserDAOImpl.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363547717342" ignored="false" />
+    <file path="$PROJECT_DIR$/../../railway-web/ejb-in-ear/ejb/src/main/java/org/jboss/as/quickstarts/ear/dao/EJBUserDao.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363547801095" ignored="false" />
+    <file path="$PROJECT_DIR$/../../railway-web/ejb-in-ear/web/src/main/java/org/jboss/as/quickstarts/ear/cdi/MyGreetController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363551444543" ignored="false" />
+    <file path="/MyGreetController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363549594692" ignored="false" />
+    <file path="$PROJECT_DIR$/../../railway-web/ejb-in-ear/web/pom.xml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363554011654" ignored="false" />
+    <file path="$PROJECT_DIR$/../../railway-web/ejb-in-ear/ejb/pom.xml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363551160311" ignored="false" />
+    <file path="$PROJECT_DIR$/../../railway-web/ejb-in-ear/pom.xml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363550733814" ignored="false" />
+    <file path="$PROJECT_DIR$/../../railway-web/ejb-in-ear/ear/pom.xml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363551648271" ignored="false" />
+    <file path="/PassengerDAOImpl.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364267654498" ignored="false" />
+    <file path="/pom.xml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364028649172" ignored="false" />
+    <file path="/mydefault.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364253278033" ignored="false" />
+    <file path="/primaryFacesTest.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363624451700" ignored="false" />
+    <file path="/fragment.js2" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363557162082" ignored="false" />
+    <file path="/PassengerService.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364239326336" ignored="false" />
+    <file path="/login.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364292642138" ignored="false" />
+    <file path="/Account.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363612973591" ignored="false" />
+    <file path="/LoginController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364229758759" ignored="false" />
+    <file path="/Dummy.txt" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364239014669" ignored="false" />
+    <file path="/MemberController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363619595019" ignored="false" />
+    <file path="/a.dummy" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364327509017" ignored="false" />
+    <file path="$USER_HOME$/Documents/GitHub/railway/railwayproject/src/main/java/com/tsystems/server/domain/entity/Train.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363620047618" ignored="false" />
+    <file path="$USER_HOME$/Documents/GitHub/railway/railwayproject/src/main/java/com/tsystems/server/domain/BaseEntity.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363620041898" ignored="false" />
+    <file path="$USER_HOME$/Documents/GitHub/railway/railwayproject/src/main/java/com/tsystems/server/MyServerImpl.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363620324160" ignored="false" />
+    <file path="/MyServerImpl.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363620321985" ignored="false" />
+    <file path="/import.sql" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363620839607" ignored="false" />
+    <file path="/persistence.xml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363620877973" ignored="false" />
+    <file path="/UserSession.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363779992425" ignored="false" />
+    <file path="/LoginPassword.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363644530761" ignored="false" />
+    <file path="/UserConfigs.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363638658833" ignored="false" />
+    <file path="/register.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364248781352" ignored="false" />
+    <file path="/Passenger.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363775413211" ignored="false" />
+    <file path="/RegisterController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364216325208" ignored="false" />
+    <file path="/screen.css" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363719216455" ignored="false" />
+    <file path="/editPassengers.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364304221700" ignored="false" />
+    <file path="/PassengerDTO.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363779809002" ignored="false" />
+    <file path="/TicketDTO.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363711166345" ignored="false" />
+    <file path="/testcalendar.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363715880376" ignored="false" />
+    <file path="/EditPassengerController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364228943511" ignored="false" />
+    <file path="/BaseDAO.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363775802553" ignored="false" />
+    <file path="/StationDAOImpl.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363894306117" ignored="false" />
+    <file path="/SheduleDAOImpl.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363901822996" ignored="false" />
+    <file path="/TicketDAOImpl.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364292842882" ignored="false" />
+    <file path="/TrainDAOImpl.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363900269107" ignored="false" />
+    <file path="/TrainService.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364261489007" ignored="false" />
+    <file path="/Train.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363898044696" ignored="false" />
+    <file path="/SheduleService.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364281678271" ignored="false" />
+    <file path="/StationService.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363948492751" ignored="false" />
+    <file path="/Station.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364267311608" ignored="false" />
+    <file path="$USER_HOME$/Documents/GitHub/railway/railwayproject/src/main/java/com/tsystems/server/protocol/Command/CommandImpl.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363901316702" ignored="false" />
+    <file path="/TicketService.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364236337683" ignored="false" />
+    <file path="/Ticket.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364266287273" ignored="false" />
+    <file path="/EditTrainController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364139853801" ignored="false" />
+    <file path="/EditStationController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364247721329" ignored="false" />
+    <file path="/BuyTicketController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364241496077" ignored="false" />
+    <file path="/editTrains.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364304280253" ignored="false" />
+    <file path="/editStations.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364293452959" ignored="false" />
+    <file path="/TrainModel.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363962254551" ignored="false" />
+    <file path="/test.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363974154286" ignored="false" />
+    <file path="/TableBean.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363974287458" ignored="false" />
+    <file path="/StationDataModel.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363977716721" ignored="false" />
+    <file path="/TrainDataModel.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1363978639966" ignored="false" />
+    <file path="/web.xml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364048976379" ignored="false" />
+    <file path="/SecurityInterceptor.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364049086329" ignored="false" />
+    <file path="/LoginService.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364051107453" ignored="false" />
+    <file path="/shiro.ini" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364053918258" ignored="false" />
+    <file path="/Auth.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364054905761" ignored="false" />
+    <file path="/myTickets.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364131555990" ignored="false" />
+    <file path="/ViewTicketsController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364237886479" ignored="false" />
+    <file path="/TicketDataModel.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364132737485" ignored="false" />
+    <file path="/TrainDTO.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364133372502" ignored="false" />
+    <file path="/viewTickets.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364304246244" ignored="false" />
+    <file path="/editShedule.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364304158965" ignored="false" />
+    <file path="/AddRoutePointController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364234096190" ignored="false" />
+    <file path="/SheduleDataModel.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364153745921" ignored="false" />
+    <file path="/TicketModel.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364146020395" ignored="false" />
+    <file path="/SheduleModel.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364156736817" ignored="false" />
+    <file path="/main.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364248787502" ignored="false" />
+    <file path="/MainMenuController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364232990200" ignored="false" />
+    <file path="/UserDataBean.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364226568993" ignored="false" />
+    <file path="/index.html" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364233967281" ignored="false" />
+    <file path="/Resources.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364241181593" ignored="false" />
+    <file path="$PROJECT_DIR$/../kitchensink-ear1/kitchensink-ear/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/service/MemberRegistration.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364242752243" ignored="false" />
+    <file path="$PROJECT_DIR$/../kitchensink-ear1/kitchensink-ear/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/service/PassengerService.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364242751947" ignored="false" />
+    <file path="$PROJECT_DIR$/../kitchensink-ear1/kitchensink-ear/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/service/SheduleService.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364242751947" ignored="false" />
+    <file path="$PROJECT_DIR$/../kitchensink-ear1/kitchensink-ear/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/service/StationService.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364242751947" ignored="false" />
+    <file path="$PROJECT_DIR$/../kitchensink-ear1/kitchensink-ear/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/service/TicketService.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364242751947" ignored="false" />
+    <file path="$PROJECT_DIR$/../kitchensink-ear1/kitchensink-ear/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/service/TrainService.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364242751947" ignored="false" />
+    <file path="$PROJECT_DIR$/../kitchensink-ear1/kitchensink-ear/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/controller/LoginController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364242717754" ignored="false" />
+    <file path="$PROJECT_DIR$/../kitchensink-ear1/kitchensink-ear/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/controller/admin/EditPassengerController.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364242787820" ignored="false" />
+    <file path="/SuitableShedule.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364247955440" ignored="false" />
+    <file path="/EditTrainBean.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364325036703" ignored="false" />
+    <file path="/EditStationBean.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364248948970" ignored="false" />
+    <file path="/AddRoutePointBean.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364330550216" ignored="false" />
+    <file path="/finalTemplate.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364322806789" ignored="false" />
+    <file path="/style.css" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364255862779" ignored="false" />
+    <file path="/FindTrainBean.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364262908955" ignored="false" />
+    <file path="/findTrain.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364304261946" ignored="false" />
+    <file path="/Shedule.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364263792932" ignored="false" />
+    <file path="/MainMenuBean.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364304118669" ignored="false" />
+    <file path="/buyTicket.xhtml" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364304177790" ignored="false" />
+    <file path="/LoginBean.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364291497332" ignored="false" />
+    <file path="/MemberRepository.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364295037417" ignored="false" />
+    <file path="/StationRepository.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364295170932" ignored="false" />
+    <file path="/StationListProducer.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364299893690" ignored="false" />
+    <file path="/StationRestBean.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364300188597" ignored="false" />
+    <file path="/StationResourceRESTService.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364302322242" ignored="false" />
+    <file path="/StationRegistration.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364302523062" ignored="false" />
+    <file path="/BuyTicketBean.java" changelist="b5a173c9-4816-411d-8a35-0f996a7685c4" time="1364328338734" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="Cvs2Configuration">
+    <option name="ON_FILE_ADDING" value="0" />
+    <option name="ON_FILE_REMOVING" value="0" />
+    <option name="PRUNE_EMPTY_DIRECTORIES" value="true" />
+    <option name="SHOW_UPDATE_OPTIONS" value="true" />
+    <option name="SHOW_ADD_OPTIONS" value="true" />
+    <option name="SHOW_REMOVE_OPTIONS" value="true" />
+    <option name="MERGING_MODE" value="0" />
+    <option name="MERGE_WITH_BRANCH1_NAME" value="HEAD" />
+    <option name="MERGE_WITH_BRANCH2_NAME" value="HEAD" />
+    <option name="RESET_STICKY" value="false" />
+    <option name="CREATE_NEW_DIRECTORIES" value="true" />
+    <option name="DEFAULT_TEXT_FILE_SUBSTITUTION" value="kv" />
+    <option name="PROCESS_UNKNOWN_FILES" value="false" />
+    <option name="PROCESS_DELETED_FILES" value="false" />
+    <option name="SHOW_EDIT_DIALOG" value="true" />
+    <option name="RESERVED_EDIT" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <option name="SHOW_CHECKOUT_OPTIONS" value="true" />
+    <option name="CHECKOUT_DATE_OR_REVISION_SETTINGS">
+      <value>
+        <option name="BRANCH" value="" />
+        <option name="DATE" value="" />
+        <option name="USE_BRANCH" value="false" />
+        <option name="USE_DATE" value="false" />
+      </value>
+    </option>
+    <option name="UPDATE_DATE_OR_REVISION_SETTINGS">
+      <value>
+        <option name="BRANCH" value="" />
+        <option name="DATE" value="" />
+        <option name="USE_BRANCH" value="false" />
+        <option name="USE_DATE" value="false" />
+      </value>
+    </option>
+    <option name="SHOW_CHANGES_REVISION_SETTINGS">
+      <value>
+        <option name="BRANCH" value="" />
+        <option name="DATE" value="" />
+        <option name="USE_BRANCH" value="false" />
+        <option name="USE_DATE" value="false" />
+      </value>
+    </option>
+    <option name="SHOW_OUTPUT" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="ADD_WATCH_INDEX" value="0" />
+    <option name="REMOVE_WATCH_INDEX" value="0" />
+    <option name="UPDATE_KEYWORD_SUBSTITUTION" />
+    <option name="MAKE_NEW_FILES_READONLY" value="false" />
+    <option name="SHOW_CORRUPTED_PROJECT_FILES" value="0" />
+    <option name="TAG_AFTER_FILE_COMMIT" value="false" />
+    <option name="TAG_AFTER_FILE_COMMIT_NAME" value="" />
+    <option name="TAG_AFTER_PROJECT_COMMIT" value="false" />
+    <option name="TAG_AFTER_PROJECT_COMMIT_NAME" value="" />
+    <option name="PUT_FOCUS_INTO_COMMENT" value="false" />
+    <option name="SHOW_CHECKIN_OPTIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="SAVE_LAST_COMMIT_MESSAGE" value="true" />
+    <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_FILE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <field_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <exception_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="DebuggerSettings">
+    <option name="TRACING_FILTERS_ENABLED" value="true" />
+    <option name="TOSTRING_CLASSES_ENABLED" value="false" />
+    <option name="VALUE_LOOKUP_DELAY" value="700" />
+    <option name="DEBUGGER_TRANSPORT" value="0" />
+    <option name="FORCE_CLASSIC_VM" value="true" />
+    <option name="HIDE_DEBUGGER_ON_PROCESS_TERMINATION" value="false" />
+    <option name="SKIP_SYNTHETIC_METHODS" value="true" />
+    <option name="SKIP_CONSTRUCTORS" value="false" />
+    <option name="STEP_THREAD_SUSPEND_POLICY" value="SuspendThread" />
+    <default_breakpoint_settings>
+      <option name="NOTIFY_CAUGHT" value="true" />
+      <option name="NOTIFY_UNCAUGHT" value="true" />
+      <option name="WATCH_MODIFICATION" value="true" />
+      <option name="WATCH_ACCESS" value="true" />
+      <option name="WATCH_ENTRY" value="true" />
+      <option name="WATCH_EXIT" value="true" />
+      <option name="ENABLED" value="true" />
+      <option name="SUSPEND_VM" value="true" />
+      <option name="COUNT_FILTER_ENABLED" value="false" />
+      <option name="COUNT_FILTER" value="0" />
+      <option name="CONDITION_ENABLED" value="false" />
+      <option name="CONDITION" />
+      <option name="LOG_ENABLED" value="false" />
+      <option name="LOG_EXPRESSION_ENABLED" value="false" />
+      <option name="LOG_MESSAGE" />
+      <option name="CLASS_FILTERS_ENABLED" value="false" />
+      <option name="INVERSE_CLASS_FILLTERS" value="false" />
+      <option name="SUSPEND_POLICY" value="SuspendAll" />
+    </default_breakpoint_settings>
+    <filter>
+      <option name="PATTERN" value="com.sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="java.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="javax.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.omg.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="sun.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="junit.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+  </component>
+  <component name="EjbViewSettings">
+    <EjbView showMembers="false" autoscrollToSource="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="jboss-as-kitchensink-ear">
+      <favorite_root url="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/login.xhtml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="BuyTicketBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/controller/BuyTicketBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="617" selection-end="623" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddRoutePointBean.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/controller/admin/AddRoutePointBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="176" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.19800332">
+              <folding>
+                <element signature="method#buyTicket#0;class#AddRoutePointBean#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SHOW_PACKAGES" value="false" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="SORT_ALPHABETICALLY" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/rest/StationResourceRESTService.java" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/dto/PassengerDTO.java" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/controller/MainMenuBean.java" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/editShedule.xhtml" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/buyTicket.xhtml" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/editPassengers.xhtml" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/viewTickets.xhtml" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/findTrain.xhtml" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/editTrains.xhtml" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/editStations.xhtml" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/service/PassengerService.java" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/login.xhtml" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/finalTemplate.xhtml" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/controller/admin/EditTrainBean.java" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/controller/BuyTicketBean.java" />
+        <option value="$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/controller/admin/AddRoutePointBean.java" />
+      </list>
+    </option>
+  </component>
+  <component name="InspectionManager">
+    <option name="AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="SPLITTER_PROPORTION" value="0.5" />
+    <profile name="Default" />
+  </component>
+  <component name="LvcsProjectConfiguration">
+    <option name="ADD_LABEL_ON_PROJECT_OPEN" value="true" />
+    <option name="ADD_LABEL_ON_PROJECT_COMPILATION" value="true" />
+    <option name="ADD_LABEL_ON_FILE_PACKAGE_COMPILATION" value="true" />
+    <option name="ADD_LABEL_ON_PROJECT_MAKE" value="true" />
+    <option name="ADD_LABEL_ON_RUNNING" value="true" />
+    <option name="ADD_LABEL_ON_DEBUGGING" value="true" />
+    <option name="ADD_LABEL_ON_UNIT_TEST_PASSED" value="true" />
+    <option name="ADD_LABEL_ON_UNIT_TEST_FAILED" value="true" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="PerforceConfiguration">
+    <option name="PORT" value="magic:1666" />
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="CLIENT" value="" />
+    <option name="TRACE" value="false" />
+    <option name="PERFORCE_STATUS" value="true" />
+    <option name="CHANGELIST_OPTION" value="false" />
+    <option name="SYSTEMROOT" value="" />
+    <option name="P4_EXECUTABLE" value="p4" />
+    <option name="SHOW_BRANCH_HISTORY" value="false" />
+    <option name="GENERATE_COMMENT" value="false" />
+    <option name="SYNC_OPTION" value="Sync" />
+    <option name="PUT_FOCUS_INTO_COMMENT" value="false" />
+    <option name="SHOW_CHECKIN_OPTIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="SAVE_LAST_COMMIT_MESSAGE" value="true" />
+    <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_FILE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink_ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink_ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink_ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear-ejb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear-ejb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear-ejb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear-ejb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink_ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear-ejb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink_ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink-ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-as-kitchensink-ear-ejb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitchensink_ear" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewSettings">
+    <navigator currentView="ProjectPane" flattenPackages="false" showMembers="false" showStructure="false" autoscrollToSource="false" splitterProportion="0.5" />
+    <view id="ProjectPane">
+      <expanded_node type="directory" url="file://$PROJECT_DIR$" />
+    </view>
+    <view id="SourcepathPane" />
+    <view id="ClasspathPane" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kitchensink-ear1/kitchensink-ear/jboss-as-kitchensink-ear.ipr" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.jboss.as.quickstarts.kitchensink_ear.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Desktop\JS7\testExamples\kitchensink-ear\jboss-as-kitchensink-ear-web\src\main\webapp\resources\css" />
+      <recent name="C:\Users\Alex\Desktop\JS7\testExamples\kitchensink-ear\jboss-as-kitchensink-ear-ejb\src\main\java\org\jboss\as\quickstarts\kitchensink_ear\dto" />
+      <recent name="C:\Users\Alex\Desktop\JS7\testExamples\kitchensink-ear\jboss-as-kitchensink-ear-ejb\src\main\java\org\jboss\as\quickstarts\kitchensink_ear" />
+      <recent name="C:\Users\Alex\Desktop\JS7\testExamples\kitchensink-ear\jboss-as-kitchensink-ear-ejb\src\main\java\org\jboss\as\quickstarts\kitchensink_ear\service" />
+      <recent name="C:\Users\Alex\Desktop\JS7\testExamples\kitchensink-ear\jboss-as-kitchensink-ear-ejb\src\main\java\org\jboss\as\quickstarts\kitchensink_ear\dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Desktop\JS7\testExamples\kitchensink-ear\jboss-as-kitchensink-ear-web\src\main\webapp" />
+      <recent name="C:\Users\Alex\Desktop\JS7\testExamples\kitchensink-ear\jboss-as-kitchensink-ear-web\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Alex\Desktop\JS7\testExamples\kitchensink-ear\jboss-as-kitchensink-ear-web\src\main\webapp\resources\gfx" />
+      <recent name="C:\Users\Alex\Desktop\JS7\testExamples\kitchensink-ear\jboss-as-kitchensink-ear-web\src\main\webapp\resources\css" />
+      <recent name="C:\Users\Alex\Desktop\JS7\testExamples\kitchensink-ear" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JBoss Server.JBoss 7.1.1.Final">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoogleAppEngineDevServer" factoryName="Local">
+      <server-settings />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Local">
+      <deployment />
+      <server-settings>
+        <option name="SERVER" value="" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="CFConfiguration" factoryName="Remote">
+      <option name="PORT" value="80" />
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+        <data />
+      </server-settings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JBoss 7.1.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.1.1.Final">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jboss-as-kitchensink-ear-web/" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="jboss-as-kitchensink-ear-ear:ear">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56733" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="jboss-as-kitchensink-ear-ear:ear" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.1.1.Final" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StarteamConfiguration">
+    <option name="SERVER" value="" />
+    <option name="PORT" value="49201" />
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="PROJECT" value="" />
+    <option name="VIEW" value="" />
+    <option name="ALTERNATIVE_WORKING_PATH" value="" />
+    <option name="PUT_FOCUS_INTO_COMMENT" value="false" />
+    <option name="SHOW_CHECKIN_OPTIONS" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="SORT_MODE" value="0" />
+    <option name="GROUP_INHERITED" value="true" />
+    <option name="AUTOSCROLL_MODE" value="true" />
+    <option name="SHOW_FIELDS" value="true" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
+    <option name="GROUP_GETTERS_AND_SETTERS" value="true" />
+    <option name="SHOW_INHERITED" value="false" />
+    <option name="HIDE_NOT_PUBLIC" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="AUTO_ADD_FILES" value="0" />
+    <option name="AUTO_DEL_FILES" value="0" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5a173c9-4816-411d-8a35-0f996a7685c4" name="Default" comment="" />
+      <created>1363546930319</created>
+      <updated>1363546930319</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6192" sideWeight="0.5189394" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6192" sideWeight="0.5159091" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.3808" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6192" sideWeight="0.47575757" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="554" />
+      <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4352" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5456" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CVS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" value="" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="VssConfiguration">
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="COMMENT" value="" />
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+      <option name="FILE_TYPE" value="0" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="0" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <DiffOptions>
+      <option name="IGNORE_WHITE_SPACE" value="false" />
+      <option name="IGNORE_CASE" value="false" />
+    </DiffOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </GetOptions>
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <option name="SHOW_CHECKOUT_OPTIONS" value="true" />
+    <option name="SHOW_ADD_OPTIONS" value="true" />
+    <option name="SHOW_UNDOCHECKOUT_OPTIONS" value="true" />
+    <option name="SHOW_DIFF_OPTIONS" value="true" />
+    <option name="SHOW_GET_OPTIONS" value="true" />
+    <option name="USE_EXTERNAL_DIFF" value="false" />
+    <option name="EXTERNAL_DIFF_PATH" value="" />
+    <option name="REUSE_LAST_COMMENT" value="false" />
+    <option name="PUT_FOCUS_INTO_COMMENT" value="false" />
+    <option name="SHOW_CHECKIN_OPTIONS" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="CHECKIN_DIALOG_SPLITTER_PROPORTION" value="0.8" />
+  </component>
+  <component name="WebViewSettings">
+    <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/dao/passenger/impl/PassengerDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/entity/Passenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="13" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/register.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.576923" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/util/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="13" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.47058824" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/dao/passenger/PassengerDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="251" selection-end="251" vertical-scroll-proportion="0.17028381" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/editShedule.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="107" selection-start="3208" selection-end="3208" vertical-scroll-proportion="0.40488657" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/dto/PassengerDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="-2.2921536" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="40" selection-start="1617" selection-end="1617" vertical-scroll-proportion="-0.65384614" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/editTrains.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="204" column="31" selection-start="10393" selection-end="10393" vertical-scroll-proportion="4.895288" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/controller/admin/EditStationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="1134" selection-end="1134" vertical-scroll-proportion="-0.085141905" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/editStations.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="103" selection-start="3054" selection-end="3054" vertical-scroll-proportion="1.6317626" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/service/PassengerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="18" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/webapp/finalTemplate.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="44" selection-start="2903" selection-end="2903" vertical-scroll-proportion="-22.884615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/controller/admin/EditTrainBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="23" selection-start="5136" selection-end="5136" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/controller/BuyTicketBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="617" selection-end="623" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jboss-as-kitchensink-ear-web/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/controller/admin/AddRoutePointBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="176" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.19800332">
+          <folding>
+            <element signature="method#buyTicket#0;class#AddRoutePointBean#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

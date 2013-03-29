@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+    <title>Find train page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <h:outputStylesheet name="css/style.css"/>
+</h:head>
+<h:body>
+    <div id="bg">
+        <div id="outer">
+            <div id="header">
+                <div id="nav">
+                    <h:form>
+                        <p:growl id="messages"/>
+                        <p:megaMenu>
+                            <p:submenu label="Admin..." icon="ui-icon-refresh"
+                                       rendered="#{mainMenuBean.admin}"
+                                    >
+                                <p:column>
+                                    <p:submenu label="You can.."
+                                            >
+                                        <p:menuitem value="add/view trains" action="#{mainMenuBean.gotoEditTrains}"
+                                                    update="messages" icon="ui-icon-contact"/>
+                                        <p:menuitem value="add/view stations" action="#{mainMenuBean.gotoEditStations}"
+                                                    update="messages" icon="ui-icon-document"/>
+                                        <p:menuitem value="add/view passengers"
+                                                    action="#{mainMenuBean.gotoEditPassengers}"
+                                                    update="messages" icon="ui-icon-person"/>
+                                        <p:menuitem value="add/view route point" action="#{mainMenuBean.gotoEditShedule}"
+                                                    update="messages"/>
+                                    </p:submenu>
+                                </p:column>
+                            </p:submenu>
+
+                            <p:submenu label="My..." icon="ui-icon-refresh"
+                                    >
+                                <p:column>
+                                    <p:submenu label="">
+                                        <p:menuitem value="profile" action="#{mainMenuBean.gotoMyCabinet}"
+                                                    update="messages"/>
+                                        <p:menuitem value="tickets" action="#{mainMenuBean.gotoMyCabinet}"
+                                                    update="messages"/>
+                                    </p:submenu>
+                                </p:column>
+                            </p:submenu>
+
+
+                            <p:submenu label="Aim ..." icon="ui-icon-refresh">
+                                <p:column>
+                                    <p:submenu label=""
+                                            >
+                                        <p:menuitem value="buy a ticket" action="#{mainMenuBean.gotoBuyTicket}"
+                                                    update="messages" icon="ui-icon-star"/>
+                                        <p:menuitem value="find train" action="#{mainMenuBean.gotoFindTrain}"
+                                                    update="messages" icon="ui-icon-search"/>
+                                        <p:menuitem value="log out" action="#{mainMenuBean.logout}"
+                                                    update="messages" icon="ui-icon-extlink"/>
+                                    </p:submenu>
+                                </p:column>
+
+                            </p:submenu>
+                        </p:megaMenu>
+                    </h:form>
+
+                    <br class="clear"/>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="resources/css/images/glacier-express-escorted.jpg"
+                     width="1120" height="200" alt=""/>
+            </div>
+            <div id="main">
+                <div id="content">
+
+                    <div id="box1">
+                        <h2>
+                            Use this pageto find optimal route
+                        </h2>
+                           Choose departure and arrival dates, chhose your stations and have fun!
+                    </div>
+
+
+                    <br class="clear"/>
+                </div>
+
+                <div id="sidebar1">
+
+
+                    <div id="container">
+
+                        <h:form id="form">
+
+                            <p:growl id="growl" showDetail="true"/>
+
+                            <p:separator/>
+
+                            <h:outputText value="Station: "/>
+                            <p:separator/>
+
+                            <p:selectOneMenu value="#{findTrainBean.station1}" effect="fade"
+                                             style="min-width: 150px;">
+                                <f:selectItem itemLabel="Select One" itemValue="" noSelectionOption="true"
+                                              style="min-width: 150px;"
+                                              itemDisabled="true"/>
+                                <f:selectItems value="#{findTrainBean.stations}"
+                                               var="station1"
+                                               style="min-width: 150px;"
+                                               itemLabel="#{station1.name}"
+                                               itemValue="#{station1.name}"/>
+                            </p:selectOneMenu>
+
+
+                            <p:selectOneMenu value="#{findTrainBean.station2}" effect="fade"
+                                             style="min-width: 150px;">
+                                <f:selectItem itemLabel="Select One" itemValue="" noSelectionOption="true"
+                                              style="min-width: 150px;"
+                                              itemDisabled="true"/>
+                                <f:selectItems value="#{findTrainBean.stations}"
+                                               var="station2"
+                                               style="min-width: 150px;"
+                                               itemLabel="#{station2.name}"
+                                               itemValue="#{station2.name}"/>
+                            </p:selectOneMenu>
+
+                            <p:separator/>
+
+                            <h:outputText value="Date1: "/>
+                            <p:calendar value="#{findTrainBean.date1}" pattern="MM/dd/yyyy HH:mm"/>
+                            <p:separator/>
+
+                            <h:outputText value="Date2: "/>
+                            <p:calendar value="#{findTrainBean.date2}" pattern="MM/dd/yyyy HH:mm"/>
+                            <p:separator/>
+                            <p:commandButton id="addNewShedule" action="#{findTrainBean.findTrain}"
+                                             value="Find train">
+                            </p:commandButton>
+
+                        </h:form>
+
+                    </div>
+
+                </div>
+                <br class="clear"/>
+            </div>
+            <div id="footer">
+                <div id="footerContent">
+                    Just some extrainformation here
+                </div>
+
+                <br class="clear"/>
+            </div>
+        </div>
+        <div id="copyright">
+            &copy; T-Systems 2013 | Design by <a href="http://www.freecsstemplates.org/">Alexander Davljatov </a>
+        </div>
+    </div>
+</h:body>
+
+</html>

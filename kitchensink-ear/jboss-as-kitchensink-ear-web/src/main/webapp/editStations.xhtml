@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+    <title>View trains page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <h:outputStylesheet name="css/style.css"/>
+</h:head>
+<h:body>
+    <div id="bg">
+        <div id="outer">
+            <div id="header">
+            <div id="nav">
+                <h:form>
+                    <p:growl id="messages"/>
+                    <p:megaMenu>
+                        <p:submenu label="Admin..." icon="ui-icon-refresh"
+                                   rendered="#{mainMenuBean.admin}"
+                                >
+                            <p:column>
+                                <p:submenu label="You can.."
+                                        >
+                                    <p:menuitem value="add/view trains" action="#{mainMenuBean.gotoEditTrains}"
+                                                update="messages" icon="ui-icon-contact"/>
+                                    <p:menuitem value="add/view stations" action="#{mainMenuBean.gotoEditStations}"
+                                                update="messages" icon="ui-icon-document"/>
+                                    <p:menuitem value="add/view passengers" action="#{mainMenuBean.gotoEditPassengers}"
+                                                update="messages" icon="ui-icon-person"/>
+                                    <p:menuitem value="add/view route point" action="#{mainMenuBean.gotoEditShedule}"
+                                                update="messages"/>
+                                </p:submenu>
+                            </p:column>
+                        </p:submenu>
+
+                        <p:submenu label="My..." icon="ui-icon-refresh"
+                                >
+                            <p:column>
+                                <p:submenu label="">
+                                    <p:menuitem value="profile" action="#{mainMenuBean.gotoMyCabinet}" update="messages"/>
+                                    <p:menuitem value="tickets" action="#{mainMenuBean.gotoMyCabinet}" update="messages"/>
+                                </p:submenu>
+                            </p:column>
+                        </p:submenu>
+
+
+                        <p:submenu label="Aim ..." icon="ui-icon-refresh">
+                            <p:column>
+                                <p:submenu label=""
+                                        >
+                                    <p:menuitem value="buy a ticket" action="#{mainMenuBean.gotoBuyTicket}"
+                                                update="messages" icon="ui-icon-star"/>
+                                    <p:menuitem value="find train" action="#{mainMenuBean.gotoFindTrain}"
+                                                update="messages" icon="ui-icon-search"/>
+                                    <p:menuitem value="log out" action="#{mainMenuBean.logout}"
+                                                update="messages" icon="ui-icon-extlink"/>
+                                </p:submenu>
+                            </p:column>
+
+                        </p:submenu>
+                    </p:megaMenu>
+                </h:form>
+
+                <br class="clear"/>
+            </div>
+            </div>
+            <div id="banner">
+                <img src="resources/css/images/glacier-express-escorted.jpg"
+                     width="1120" height="200" alt=""/>
+            </div>
+            <div id="main">
+                <div id="content">
+
+                    <div id="box1">
+                        <h2>
+                            Not enough stations? Just add a couple!
+                        </h2>
+                        <p>
+                            Click 'add' station and fill the fields
+                        </p>
+                    </div>
+
+
+                    <br class="clear"/>
+                </div>
+
+                <div id="sidebar1">
+
+
+                    <div id="container" >
+
+                        <p:panel id="pnl" header="View trains" style="margin-bottom:10px;"
+                                 rendered="#{editPassengerBean.admin}">
+
+                            <div >
+                                <!---->
+                                <h:form id="form">
+
+                                    <p:growl id="growl" showDetail="true"/>
+
+                                    <p:dataTable id="stations"
+                                                 var="station"
+                                                 value="#{editStationBean.stationDataModel}"
+                                                 paginator="true"
+                                                 rows="10"
+                                                 selection="#{editStationBean.selectedStation}"
+                                                 selectionMode="single">
+
+                                        <p:ajax event="rowSelect"
+                                                listener="#{editStationBean.onRowSelect}"
+                                                update=":form:display :form:growl"
+                                                oncomplete="carDialog.show()" />
+                                        <p:ajax event="rowUnselect"
+                                                listener="#{editStationBean.onRowUnselect}"
+                                                update=":form:growl"/>
+
+                                        <f:facet name="header">
+                                            Select a row to display a message
+                                        </f:facet>
+
+                                        <p:column headerText="Station" sortBy="#{station.name}">
+                                            #{station.name}
+                                        </p:column>
+                                    </p:dataTable>
+
+                                    <p:dialog id="dialog" header="Car Detail" widgetVar="carDialog" resizable="false"
+                                              showEffect="fade" hideEffect="explode">
+
+                                        <h:panelGrid id="display" columns="2" cellpadding="4">
+
+                                            <f:facet name="header">
+                                            </f:facet>
+
+                                            <h:outputLabel value="Station:" />
+                                            <h:outputText value="#{editStationBean.selectedStation.name}" />
+
+                                            <p:dataTable id="trains"
+                                                         var="shedule"
+                                                         value="#{editStationBean.suitableShedules}">
+
+                                                <p:column headerText="Train number">
+                                                    #{shedule.train}
+                                                </p:column>
+                                                <p:column headerText="Date">
+                                                    #{shedule.date}
+                                                </p:column>
+
+                                            </p:dataTable>
+
+                                        </h:panelGrid>
+                                    </p:dialog>
+
+
+
+                                </h:form>
+                                <!--***************************************************************-->
+                                <p:commandButton id="addNewStationLink" value="Add Station" onclick="dlg.show()"
+                                                 title="addNewStation">
+                                </p:commandButton>
+
+                                <p:growl id="growl" showDetail="true" life="3000" />
+
+                                <p:dialog id="dialog" header="addNewStation" widgetVar="dlg" modal="false">
+                                    <h:form>
+
+                                        <h:panelGrid columns="2" cellpadding="5">
+                                            <h:outputLabel for="stationName" value="Station name:" />
+                                            <p:inputText value="#{editStationBean.newStation}"
+                                                         id="stationName" required="true" label="stationName" />
+
+                                            <f:facet name="footer">
+                                                <p:commandButton id="addNewStationButton" value="Add station" update=":growl"
+                                                                 actionListener="#{editStationBean.addNewStation}"
+                                                                 oncomplete="handleLoginRequest(xhr, status, args)"/>
+                                            </f:facet>
+                                        </h:panelGrid>
+
+                                    </h:form>
+                                </p:dialog>
+
+                                <script type="text/javascript">
+                                    function handleLoginRequest(xhr, status, args) {
+                                        if(args.validationFailed || !args.addSuccess) {
+                                            jQuery('#dialog').effect("shake", { times:3 }, 100);
+                                        } else {
+                                            dlg.hide();
+//                                    jQuery('#addNewStationLink').fadeOut();
+                                        }
+                                    }
+                                </script>
+                            </div>
+                            <!---->
+                        </p:panel>
+                    </div>
+
+                </div>
+                <br class="clear"/>
+            </div>
+            <div id="footer">
+                <div id="footerContent">
+                    Just some extrainformation here
+                </div>
+
+                <br class="clear"/>
+            </div>
+        </div>
+        <div id="copyright">
+            &copy; T-Systems 2013 | Design by <a href="http://www.freecsstemplates.org/">Alexander Davljatov </a>
+        </div>
+    </div>
+</h:body>
+
+</html>

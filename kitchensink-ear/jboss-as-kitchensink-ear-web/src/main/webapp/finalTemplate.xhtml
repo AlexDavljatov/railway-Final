@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+    <title>View trains page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <h:outputStylesheet name="css/style.css"/>
+</h:head>
+<h:body>
+
+
+
+
+
+
+
+            <p:panel id="pnl" header="View trains" style="margin-bottom:10px;">
+
+                <div style="min-width: 600px;">
+                    <!---->
+
+                    <h:form id="form">
+
+                        <p:growl id="growl" showDetail="true"/>
+
+                        <p:dataTable id="trains"
+                                     var="train"
+                                     value="#{editTrainBean.trainDataModel}"
+                                     paginator="true"
+                                     rows="10"
+                                     selection="#{editTrainBean.selectedTrain}"
+                                     selectionMode="single">
+
+                            <p:ajax event="rowSelect"
+                                    listener="#{editTrainBean.onRowSelect}"
+                                    update=":form:display :form:growl"
+                                    oncomplete="carDialog.show()"/>
+                            <p:ajax event="rowUnselect"
+                                    listener="#{editTrainBean.onRowUnselect}"
+                                    update=":form:growl"/>
+                            <f:facet name="header" >
+                                Select a train to dispay passengers
+                            </f:facet>
+                            <p:column headerText="Train number" sortBy="#{train.number}">
+                                #{train.number}
+                            </p:column>
+                            <p:column headerText="Train sits number">
+                                #{train.sitsNumber}
+                            </p:column>
+                        </p:dataTable>
+
+                        <p:dialog id="dialog" header="Train details" widgetVar="carDialog" resizable="false"
+                                  showEffect="fade" hideEffect="explode">
+
+                            <h:panelGrid id="display" columns="2" cellpadding="4">
+
+                                <f:facet name="header">
+                                </f:facet>
+
+                                <h:outputText value="Train:"/>
+                                <h:outputText value="#{editTrainBean.selectedTrain.number}"/>
+
+                                <p:dataTable id="passengers"
+                                             var="pas"
+                                             value="#{editTrainBean.passEmails}">
+
+                                    <p:column headerText="Passenger email">
+                                        <p:outputLabel value="#{pas}"/>
+                                    </p:column>
+
+                                </p:dataTable>
+
+                            </h:panelGrid>
+
+
+                        </p:dialog>
+
+                    </h:form>
+                    <!--***************************************************************-->
+                    <p:commandButton id="addNewTrainLink" value="Add Train" onclick="dlg.show()"
+                                     title="addNewTrain"/>
+
+                    <p:growl id="growl" showDetail="true" life="3000"/>
+
+                    <p:dialog id="dialog" header="addNewTrain" widgetVar="dlg" modal="false">
+                        <h:form>
+
+                            <h:panelGrid columns="2" cellpadding="5">
+                                <h:outputLabel for="trainNumber" value="Train number:"/>
+                                <p:inputText value="#{editTrainBean.newTrainNumber}"
+                                             id="trainNumber" required="true" label="trainNumber"/>
+
+                                <h:outputLabel for="trainSitsNumber" value="Train sits number:"/>
+                                <p:inputText value="#{editTrainBean.newTrainSitsNumber}"
+                                             id="trainSitsNumber" required="true" label="trainSitsNumber"/>
+
+
+                                <f:facet name="footer">
+                                    <p:commandButton id="addNewTrainButton" value="Add train" update=":growl"
+                                                     actionListener="#{editTrainBean.addNewTrain}"
+                                                     oncomplete="handleLoginRequest(xhr, status, args)"/>
+                                </f:facet>
+                            </h:panelGrid>
+
+                        </h:form>
+                    </p:dialog>
+
+                    <script type="text/javascript">
+                        function handleLoginRequest(xhr, status, args) {
+                            if (args.validationFailed || !args.addSuccess) {
+                                jQuery('#dialog').effect("shake", { times: 3 }, 100);
+                            } else {
+                                dlg.hide();
+//                                    jQuery('#addNewStationLink').fadeOut();
+                            }
+                        }
+                    </script>
+                </div>
+                <!---->
+            </p:panel>
+
+</h:body>
+
+</html>
